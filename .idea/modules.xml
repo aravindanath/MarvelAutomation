@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Marvel.iml" filepath="$PROJECT_DIR$/.idea/Marvel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythonSeleniumProject/.idea/PythonSeleniumProject.iml" filepath="$PROJECT_DIR$/../PythonSeleniumProject/.idea/PythonSeleniumProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Target2020PyAuto/.idea/Target20.iml" filepath="$PROJECT_DIR$/../Target2020PyAuto/.idea/Target20.iml" />
+    </modules>
+  </component>
+</project>
