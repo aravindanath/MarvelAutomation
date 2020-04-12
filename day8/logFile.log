@@ -1,0 +1,9 @@
+2020-04-12 13:32:13,520 :INFO: Demo log :User is on https://www.google.com/
+2020-04-12 13:32:13,526 :INFO: Demo log :User is on Google
+2020-04-12 13:32:15,578 :INFO: Demo log :User is on https://www.google.com/search?source=hp&ei=JcuSXs2YCfaG4-EPk9WXwAQ&q=Covid+19+in+india&oq=Covid+19+in+india&gs_lcp=CgZwc3ktYWIQA1ClClimC2CtC2gAcAB4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiNv_6htuLoAhV2wzgGHZPqBUgQ4dUDCAc&uact=5
+2020-04-12 13:32:15,586 :INFO: Demo log :User is on Covid 19 in india - Google Search
+2020-04-12 13:34:05,687 :INFO: Demo log :User is on https://www.amazon.com/
+2020-04-12 13:34:05,694 :INFO: Demo log :User is on Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+2020-04-12 13:36:52,393 :INFO: Demo log :User is on https://www.amazon.com/
+2020-04-12 13:36:53,312 :INFO: Demo log :User is on Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+2020-04-12 13:36:53,328 :ERROR: Demo log :Element not found
