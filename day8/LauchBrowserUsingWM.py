@@ -9,4 +9,4 @@ if browser == 'chrome':
 elif browser == 'firefox':
     driver = webdriver.Firefox(GeckoDriverManager().install())
 
-driver.get("https://www.google.com")
+# driver.get("https://www.google.com")
