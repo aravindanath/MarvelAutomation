@@ -1,14 +1,11 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+from day8 import LaunchBrowser as lp
 import time
 from selenium.webdriver.common.keys import Keys
 
+lp.driver.get("https://www.amazon.com")
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+time.sleep(3)
+lp.driver.find_element_by_id("twotabsearchtextbox").send_keys("ipad pro 2020",Keys.ENTER)
+time.sleep(3)
 
-data = "iphone xr"
-driver.get("https://www.amazon.com")
-driver.find_element_by_id("twotabsearchtextbox").send_keys(data,Keys.ENTER)
-time.sleep(4)
-driver.quit()
-
+lp.driver.close()

@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 ops = webdriver.ChromeOptions()
 # ops.add_argument('--ignore-certificate-errors')
 ops.add_argument("--disable-notifications")
-ops.add_argument("--incognito")
+ops.add_argument("--headless")
 driver = webdriver.Chrome(ChromeDriverManager().install(),options=ops)
 
 data = "Selenium jobs in bangalore"

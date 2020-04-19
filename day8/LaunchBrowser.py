@@ -5,6 +5,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 browser ="chrome"
 global driver
 if browser == 'chrome':
+
+
     driver = webdriver.Chrome(ChromeDriverManager().install())
 elif browser == 'firefox':
     driver = webdriver.Firefox(GeckoDriverManager().install())
