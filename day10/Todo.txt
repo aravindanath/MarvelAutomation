@@ -1,0 +1,25 @@
+1. alerts (done)
+2. browser notifications (done)
+3. mouse hover (done)
+4. right click (done)
+5. drag n drop (done)
+6. click (done)
+7. dropdown
+8. multiselect
+9. textfield
+10. checkbox
+11. radio button
+12. file upload /  download
+13. scroll
+14. wait
+15. DB
+16. Takescreenshot
+17. frames
+18 windows handling
+19. calander
+20 autosuggest
+
+reports
+pytest
+framework
+jenkins
