@@ -39,3 +39,6 @@ def dragAndDrop(driver, src, tgt):
 def doubleClick(driver, element):
     act = ActionChains(driver)
     act.double_click(element).perform()
+
+def takeScreenShot(driver,path):
+    driver.save_screenshot(path)
