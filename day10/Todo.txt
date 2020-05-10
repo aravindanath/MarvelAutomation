@@ -4,8 +4,8 @@
 4. right click (done)
 5. drag n drop (done)
 6. click (done)
-7. dropdown
-8. multiselect
+7. dropdown (done)
+8. multiselect (done)
 9. textfield (Done)
 10. checkbox
 11. radio button

@@ -1,4 +1,5 @@
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.select import Select
 
 
 def acceptAlert(driver):
@@ -42,3 +43,32 @@ def doubleClick(driver, element):
 
 def takeScreenShot(driver,path):
     driver.save_screenshot(path)
+
+def selectDropdownByindex(element,index):
+    sel = Select(element)
+    sel.select_by_index(index)
+
+def selectDropdownByVal(element, value):
+    sel = Select(element)
+    sel.select_by_value(value)
+
+def selectDropdownByVisibleText(element, value):
+    sel = Select(element)
+    sel.select_by_visible_text(value)
+
+
+def deSelectDropdownByVal(element, value):
+    sel = Select(element)
+    sel.deselect_by_value(value)
+
+def deSelectDropdownByindex(element, index):
+    sel = Select(element)
+    sel.deselect_by_index(index)
+
+def deSelectDropdownByVisibleText(element, value):
+    sel = Select(element)
+    sel.deselect_by_visible_text(value)
+
+def deSelectAllValues(element):
+    sel = Select(element)
+    sel.deselect_all()
