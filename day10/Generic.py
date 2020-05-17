@@ -1,3 +1,5 @@
+from configparser import ConfigParser
+
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 
@@ -72,3 +74,27 @@ def deSelectDropdownByVisibleText(element, value):
 def deSelectAllValues(element):
     sel = Select(element)
     sel.deselect_all()
+
+
+def writeToIni(filePath,header,key,value):
+    config = ConfigParser()
+    config.add_section(header)
+    config.set(header, key, value)
+    with open(filePath, 'a') as dt:
+        config.write(dt)
+
+def readData(header,key):
+    config = ConfigParser()
+    config.read("../testdata/data.ini")
+    val = config.get(header,key)
+    return val
+
+def scrollToElement(driver,element):
+    driver.execute_script("arguments[0].scrollIntoView();", element)
+
+def scrollToEnd(driver):
+    driver.execute_script("arguments[0].scrollHeight;")
+
+def highlightElement(driver,element,colour):
+    driver.execute_script("arguments[0].style.border='6px solid " + colour + "'", element)
+
