@@ -9,10 +9,10 @@
 9. textfield (Done)
 10. checkbox (done)
 11. radio button (done)
-12. file upload /  download
+12. file upload /  download (DONE)
 13. scroll (scroll)
-14. wait
-15. DB
+14. wait 1
+15. DB (video)
 16. Takescreenshot (done)
 17. frames (done)
 18  windows handling (done)
