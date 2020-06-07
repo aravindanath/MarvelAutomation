@@ -1,0 +1,14 @@
+2020-06-07 11:20:01,367 :CRITICAL : loggingDemo :Critical issue
+2020-06-07 11:20:12,228 :INFO : loggingDemo :Information statement
+2020-06-07 11:20:12,228 :WARNING : loggingDemo :Something is in warning mode
+2020-06-07 11:20:12,228 :ERROR : loggingDemo :A Major error has happend
+2020-06-07 11:20:12,228 :CRITICAL : loggingDemo :Critical issue
+2020-06-07 11:20:28,056 :WARNING : loggingDemo :Something is in warning mode
+2020-06-07 11:20:28,057 :ERROR : loggingDemo :A Major error has happend
+2020-06-07 11:20:28,057 :CRITICAL : loggingDemo :Critical issue
+2020-06-07 11:20:42,392 :DEBUG : loggingDemo :A debug statement is executed
+2020-06-07 11:20:42,392 :INFO : loggingDemo :Information statement
+2020-06-07 11:20:42,393 :DEBUG : loggingDemo :A debug statement is executed
+2020-06-07 11:20:42,393 :WARNING : loggingDemo :Something is in warning mode
+2020-06-07 11:20:42,393 :ERROR : loggingDemo :A Major error has happend
+2020-06-07 11:20:42,393 :CRITICAL : loggingDemo :Critical issue

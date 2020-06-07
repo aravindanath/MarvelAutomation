@@ -11,15 +11,18 @@
 11. radio button (done)
 12. file upload /  download (DONE)
 13. scroll (scroll)
-14. wait 1
+14. wait / logger (done)
 15. DB (video)
 16. Takescreenshot (done)
 17. frames (done)
 18  windows handling (done)
 19. calander (done)
 20 autosuggest (done)
+21. SSL certificate (done)
 
-reports
-pytest
+
+db/ auto it
+reports (done)
+pytest(done)
 framework
 jenkins
